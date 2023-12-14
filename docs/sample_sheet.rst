@@ -1,8 +1,8 @@
 API Reference
 =============
 
-``sample_sheet`` module
-------------------------
+``sample_sheet-V2`` module
+--------------------------
 
 .. automodule:: sample_sheet
     :members:

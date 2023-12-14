@@ -1,23 +1,23 @@
-Welcome to the ``sample-sheet`` Documentation!
-==============================================
+Welcome to the ``sample-sheet-V2`` Documentation!
+=================================================
 
 A permissively licensed library designed to replace `Illumina's Experiment Manager <https://support.illumina.com/sequencing/sequencing_software/experiment_manager.html>`_.
 
 .. code-block:: bash
 
-    ❯ pip install sample-sheet
+    ❯ pip install sample-sheet-V2
 
 Or install with the Conda package manager after setting up your `Bioconda channels <https://bioconda.github.io/user/install.html#set-up-channels>`_:
 
 .. code-block:: bash
 
-    ❯ conda install sample-sheet
+    ❯ conda install sample-sheet-V2
 
 Which should be equivalent to:
 
 .. code-block:: bash
 
-    ❯ conda install -c bioconda -c conda-forge -c defaults sample-sheet
+    ❯ conda install -c bioconda -c conda-forge -c defaults sample-sheet-V2
 
 Features
 --------

@@ -1,30 +1,28 @@
-# sample-sheet
+# sample-sheet-V2
 
-[![Testing Status](https://travis-ci.org/clintval/sample-sheet.svg?branch=master)](https://travis-ci.org/clintval/sample-sheet)
-[![Documentation Build Status](https://readthedocs.org/projects/sample-sheet/badge/?version=latest)](https://sample-sheet.readthedocs.io/en/latest/?badge=latest)
-[![Code Coverage](https://codecov.io/gh/clintval/sample-sheet/branch/master/graph/badge.svg)](https://codecov.io/gh/clintval/sample-sheet)
-[![PyPI Release](https://badge.fury.io/py/sample-sheet.svg)](https://badge.fury.io/py/sample-sheet)
-[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg)](http://bioconda.github.io/recipes/sample-sheet/README.html)
-[![Python Versions](https://img.shields.io/pypi/pyversions/sample-sheet.svg)](https://pypi.python.org/pypi/sample-sheet/)
+[![Documentation Build Status](https://readthedocs.org/projects/sample-sheet-V2/badge/?version=latest)](https://sample-sheet-V2.readthedocs.io/en/latest/?badge=latest)
+[![PyPI Release](https://badge.fury.io/py/sample-sheet-V2.svg)](https://badge.fury.io/py/sample-sheet-V2)
+[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg)](http://bioconda.github.io/recipes/sample-sheet-V2/README.html)
+[![Python Versions](https://img.shields.io/pypi/pyversions/sample-sheet-V2.svg)](https://pypi.python.org/pypi/sample-sheet-V2/)
 [![MyPy Checked](http://www.mypy-lang.org/static/mypy_badge.svg)](http://mypy-lang.org/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
 
-A permissively licensed library designed to replace [Illumina's Experiment Manager](https://support.illumina.com/sequencing/sequencing_software/experiment_manager.html).
+A permissively licensed library designed to read and parse [Illumina Sample Sheet V2](https://support.illumina.com/downloads/sample-sheet-v2-resource.html) for squencing data process automation.
 
 ```bash
-❯ pip install sample-sheet
+❯ pip install sample-sheet-V2
 ```
 
 Or install with the Conda package manager after setting up your [Bioconda channels](https://bioconda.github.io/user/install.html#set-up-channels):
 
 ```bash
-❯ conda install sample-sheet
+❯ conda install sample-sheet-V2
 ```
 
 Which should be equivalent to:
 
 ```bash
-❯ conda install -c bioconda -c conda-forge -c defaults sample-sheet
+❯ conda install -c bioconda -c conda-forge -c defaults sample-sheet-V2
 ```
 
 Features:
@@ -33,4 +31,4 @@ Features:
 - _de novo_ creation creation of Sample Sheets
 - Exporting Sample Sheets to JSON
 
-Read the documentation at: [sample-sheet.readthedocs.io](http://sample-sheet.readthedocs.io/)
+Read the documentation at: [sample-sheet-V2.readthedocs.io](http://sample-sheet-V2.readthedocs.io/)

@@ -21,14 +21,14 @@ sys.path.insert(0, os.path.abspath('../'))
 
 # -- Project information -----------------------------------------------------
 
-project = 'sample-sheet'
-copyright = '2018, Clint Valentine'
+project = 'sample-sheet-V2'
+copyright = '2023, Atgenomix'
 author = 'Clint Valentine'
 
 # The short X.Y version
 version = ''
 # The full version, including alpha/beta/rc tags
-release = '0.13.0'
+release = '0.1.0'
 
 # -- General configuration ---------------------------------------------------
 
