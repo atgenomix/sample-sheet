@@ -1063,13 +1063,9 @@ class SampleSheetV2(SampleSheetBase):
         if section_name.endswith('_Data'):
             self._data_sections.append(section_name)
             setattr(self, section_name, DataSection())
-        elif section_name.endswith('_Settings'):
+        else:
             self._sections.append(section_name)
             setattr(self, section_name, Section())
-        else:
-            raise ValueError(
-                f'given `{section_name}` does not have _Data or _Settings suffix'
-            )
 
     def _parse(self, handle: TextIO) -> None:
         section_name: str = ''
